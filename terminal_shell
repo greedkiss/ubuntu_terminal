@@ -1,0 +1,11 @@
+sudo apt-get install fish
+curl -sS https://starship.rs/install.sh | sh
+
+mkdir -p ~/.config/fish
+touch ~/.config/fish/config.fish
+echo "starship init fish | source" > ~/.config/fish/config.fish
+
+chsh -s /usr/bin/fish
+
+
+
