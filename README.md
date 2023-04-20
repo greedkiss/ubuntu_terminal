@@ -1,0 +1,1 @@
+替代oh my zsh在ubuntu虚拟机中快速优化终端
